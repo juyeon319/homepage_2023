@@ -13,7 +13,7 @@
 <body>
 <c:choose>
 	<c:when test="${not empty result.tempId}">
-		<c:set var="actionUrl" value="/temp/uqdate.do"/>
+		<c:set var="actionUrl" value="/temp/update.do"/>
 	</c:when>
 	<c:otherwise>
 		<c:set var="actionUrl" value="/temp/insert.do"/>
